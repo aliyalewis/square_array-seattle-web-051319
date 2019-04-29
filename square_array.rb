@@ -6,3 +6,8 @@ def square_array(array)
   end
   new_array
 end
+
+def square_array(array)
+  array = []
+  array.collect {|i| i**2}
+end
